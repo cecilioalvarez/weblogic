@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deployment-plan xmlns="http://xmlns.oracle.com/weblogic/deployment-plan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/deployment-plan http://xmlns.oracle.com/weblogic/deployment-plan/1.0/deployment-plan.xsd" global-variables="false">
+  <application-name>Web001.war</application-name>
+  <variable-definition>
+    <variable>
+      <name>JASPICProvider_AuthConfigProviderName_14653157326090</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ManagedExecutorServices_14653157326111</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ManagedScheduledExecutorServices_14653157326122</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_JspDescriptors_14653157326123</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ManagedThreadFactories_14653157326124</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_AsyncDescriptors_14653157326125</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ContextRoots_14653157326136</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_WlDispatchPolicies_14653157326137</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_Loggings_14653157326138</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_SessionDescriptors_14653157326139</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ContainerDescriptors_146531573261310</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_WorkManagers_146531573261311</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>ServletDescriptor_com.vertia.web.Servlet1_InitAsPrincipalName_146531573261412</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>ServletDescriptor_com.vertia.web.Servlet1_RunAsPrincipalName_146531573261513</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>ServletDescriptor_com.vertia.web.Servlet1_DispatchPolicy_146531573261714</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>ServletDescriptor_com.vertia.web.Servlet1_DestroyAsPrincipalName_146531573261715</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFResource_null_Name_146531573264716</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_SNMPNotifications_146531573264817</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_SMTPNotifications_146531573265018</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ScriptActions_146531573265019</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Actions_146531573265120</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Watches_146531573265121</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Enabled_146531573265122</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Severity_146531573265123</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_RESTNotifications_146531573265124</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_JMXNotifications_146531573265225</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Name_146531573265226</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_LogActions_146531573265227</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ScaleUpActions_146531573265228</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_LogWatchSeverity_146531573265329</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ImageNotifications_146531573265330</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ScaleDownActions_146531573265431</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_JMSNotifications_146531573265432</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_Includes_146531573265533</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_Enabled_146531573265534</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_Excludes_146531573265635</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_WLDFInstrumentationMonitors_146531573265636</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_Name_146531573265637</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFHarvester_null_Enabled_146531573266038</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFHarvester_null_SamplePeriod_146531573266339</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFHarvester_null_HarvestedTypes_146531573266340</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFHarvester_null_Name_146531573266541</name>
+      <value xsi:nil="true"></value>
+    </variable>
+  </variable-definition>
+  <module-override>
+    <module-name>Web001.war</module-name>
+    <module-type>war</module-type>
+    <module-descriptor external="true">
+      <root-element>weblogic-web-app</root-element>
+      <uri>WEB-INF/weblogic.xml</uri>
+      <variable-assignment>
+        <name>JASPICProvider_AuthConfigProviderName_14653157326090</name>
+        <xpath>/weblogic-web-app/jaspic-provider/auth-config-provider-name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ManagedExecutorServices_14653157326111</name>
+        <xpath>/weblogic-web-app/managed-executor-service</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ManagedScheduledExecutorServices_14653157326122</name>
+        <xpath>/weblogic-web-app/managed-scheduled-executor-service</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_JspDescriptors_14653157326123</name>
+        <xpath>/weblogic-web-app/jsp-descriptor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ManagedThreadFactories_14653157326124</name>
+        <xpath>/weblogic-web-app/managed-thread-factory</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_AsyncDescriptors_14653157326125</name>
+        <xpath>/weblogic-web-app/async-descriptor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ContextRoots_14653157326136</name>
+        <xpath>/weblogic-web-app/context-root</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_WlDispatchPolicies_14653157326137</name>
+        <xpath>/weblogic-web-app/wl-dispatch-policy</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_Loggings_14653157326138</name>
+        <xpath>/weblogic-web-app/logging</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_SessionDescriptors_14653157326139</name>
+        <xpath>/weblogic-web-app/session-descriptor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ContainerDescriptors_146531573261310</name>
+        <xpath>/weblogic-web-app/container-descriptor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_WorkManagers_146531573261311</name>
+        <xpath>/weblogic-web-app/work-manager</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>ServletDescriptor_com.vertia.web.Servlet1_InitAsPrincipalName_146531573261412</name>
+        <xpath>/weblogic-web-app/servlet-descriptor/[servlet-name="com.vertia.web.Servlet1"]/init-as-principal-name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>ServletDescriptor_com.vertia.web.Servlet1_RunAsPrincipalName_146531573261513</name>
+        <xpath>/weblogic-web-app/servlet-descriptor/[servlet-name="com.vertia.web.Servlet1"]/run-as-principal-name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>ServletDescriptor_com.vertia.web.Servlet1_DispatchPolicy_146531573261714</name>
+        <xpath>/weblogic-web-app/servlet-descriptor/[servlet-name="com.vertia.web.Servlet1"]/dispatch-policy</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>ServletDescriptor_com.vertia.web.Servlet1_DestroyAsPrincipalName_146531573261715</name>
+        <xpath>/weblogic-web-app/servlet-descriptor/[servlet-name="com.vertia.web.Servlet1"]/destroy-as-principal-name</xpath>
+      </variable-assignment>
+      <hash-code>1465315869011</hash-code>
+    </module-descriptor>
+    <module-descriptor external="false">
+      <root-element>web-app</root-element>
+      <uri>WEB-INF/web.xml</uri>
+    </module-descriptor>
+    <module-descriptor external="true">
+      <root-element>wldf-resource</root-element>
+      <uri>META-INF/weblogic-diagnostics.xml</uri>
+      <variable-assignment>
+        <name>WLDFResource_null_Name_146531573264716</name>
+        <xpath>/wldf-resource/name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_SNMPNotifications_146531573264817</name>
+        <xpath>/wldf-resource/watch-notification/snmp-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_SMTPNotifications_146531573265018</name>
+        <xpath>/wldf-resource/watch-notification/smtp-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ScriptActions_146531573265019</name>
+        <xpath>/wldf-resource/watch-notification/script-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Actions_146531573265120</name>
+        <xpath>/wldf-resource/watch-notification/action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Watches_146531573265121</name>
+        <xpath>/wldf-resource/watch-notification/watche</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Enabled_146531573265122</name>
+        <xpath>/wldf-resource/watch-notification/enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Severity_146531573265123</name>
+        <xpath>/wldf-resource/watch-notification/severity</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_RESTNotifications_146531573265124</name>
+        <xpath>/wldf-resource/watch-notification/rest-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_JMXNotifications_146531573265225</name>
+        <xpath>/wldf-resource/watch-notification/jmx-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Name_146531573265226</name>
+        <xpath>/wldf-resource/watch-notification/name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_LogActions_146531573265227</name>
+        <xpath>/wldf-resource/watch-notification/log-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ScaleUpActions_146531573265228</name>
+        <xpath>/wldf-resource/watch-notification/scale-up-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_LogWatchSeverity_146531573265329</name>
+        <xpath>/wldf-resource/watch-notification/log-watch-severity</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ImageNotifications_146531573265330</name>
+        <xpath>/wldf-resource/watch-notification/image-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ScaleDownActions_146531573265431</name>
+        <xpath>/wldf-resource/watch-notification/scale-down-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_JMSNotifications_146531573265432</name>
+        <xpath>/wldf-resource/watch-notification/jms-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_Includes_146531573265533</name>
+        <xpath>/wldf-resource/instrumentation/include</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_Enabled_146531573265534</name>
+        <xpath>/wldf-resource/instrumentation/enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_Excludes_146531573265635</name>
+        <xpath>/wldf-resource/instrumentation/exclude</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_WLDFInstrumentationMonitors_146531573265636</name>
+        <xpath>/wldf-resource/instrumentation/wldf-instrumentation-monitor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_Name_146531573265637</name>
+        <xpath>/wldf-resource/instrumentation/name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFHarvester_null_Enabled_146531573266038</name>
+        <xpath>/wldf-resource/harvester/enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFHarvester_null_SamplePeriod_146531573266339</name>
+        <xpath>/wldf-resource/harvester/sample-period</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFHarvester_null_HarvestedTypes_146531573266340</name>
+        <xpath>/wldf-resource/harvester/harvested-type</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFHarvester_null_Name_146531573266541</name>
+        <xpath>/wldf-resource/harvester/name</xpath>
+      </variable-assignment>
+    </module-descriptor>
+  </module-override>
+  <config-root>/tmp/weblogic/./config/deployments/Web001.war/plan</config-root>
+</deployment-plan>

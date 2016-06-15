@@ -1,0 +1,2 @@
+JAVA_OPTIONS=" -Djava.util.logging.config.file=/home/tomcat/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/logging.properties ${JAVA_OPTIONS}"
+export JAVA_OPTIONS
